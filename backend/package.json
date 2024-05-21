@@ -1,0 +1,25 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon dist/app.js",
+      "build": "tsc",
+      "build-w": "tsc -w"
+    },
+    "author": "Ziya Ali Shamsi",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+      "body-parser": "^1.20.2",
+      "express": "^4.19.2",
+      "mongodb": "^6.6.2",
+      "mongoose": "^8.4.0"
+    },
+    "devDependencies": {
+      "@types/express": "^4.17.21",
+      "@types/node": "^20.12.12",
+      "nodemon": "^3.1.0"
+    }
+  }
+  

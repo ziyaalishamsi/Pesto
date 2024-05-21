@@ -1,0 +1,40 @@
+.header {
+    color: whitesmoke;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.addStatus {
+    margin-left: 1.5rem;
+    padding: 0.2rem;
+    font-size: medium;
+    width: 13%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font: inherit;
+}
+
+.addButton {
+    margin-right: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-size: medium;
+    width: 7%;
+    cursor: pointer;
+    border-radius: 3px;
+    font: inherit;
+    border: 1px solid #ccc;
+}
+
+.addIcon {
+    margin-right: 0.2rem;
+    margin-bottom: 0.1rem;
+    margin-top: 0.1rem;
+    margin-left: 0;
+}

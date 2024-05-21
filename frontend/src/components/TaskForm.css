@@ -1,0 +1,75 @@
+.taskForm {
+    list-style: none;
+    margin: 0 auto;
+    padding: 1rem;
+    padding-right: 1.8rem;
+    width: 90%;
+    max-width: 40rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    background: white;
+}
+
+.taskDialog {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 8rem; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+
+.formStatus {
+    width: 102.25%;
+    display: block;
+    font: inherit;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    padding: 0.3rem 0.25rem;
+    border-radius: 3px;    
+}
+
+.formStatus:focus {
+    outline: none;
+    background: #ebebeb;
+    border-color: rgba(0, 0, 0, 0.6);
+}
+
+.actionButton {
+    display: block;
+    width: 15%;
+    font: inherit;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    padding: 0.3rem 0.25rem;
+    border-radius: 3px;
+    cursor: pointer;  
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 102.25%;
+}
+
+input, textarea {
+    width: 100%;
+    display: block;
+    font: inherit;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    padding: 0.3rem 0.4rem;
+    border-radius: 3px;
+    margin: 1rem 0;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    background: #ebebeb;
+    border-color: rgba(0, 0, 0, 0.6);
+}
